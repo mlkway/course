@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="25dp"
+    android:layout_width="150dp"
+    app:cardBackgroundColor="#FF565E"
+    android:layout_height="210dp">
+
+    <ImageView
+        android:layout_marginTop="35dp"
+        android:layout_marginStart="24dp"
+        android:layout_width="14dp"
+        android:layout_height="10dp"
+        android:background="@drawable/ic_realsetting"/>
+    <TextView
+        android:text="Introduce"
+        android:textColor="@color/white"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+
+        android:text="What is it?"
+        android:textColor="@color/white"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="73dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="20 min"
+        android:textColor="@color/white"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="102dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="140dp"
+        android:background="@drawable/white_background"
+        android:padding="12dp"
+        android:src="@drawable/ic_red_samkutxedi" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="150dp"
+        android:textColor="@color/white"
+        android:textSize="16sp"/>
+
+</androidx.cardview.widget.CardView>
